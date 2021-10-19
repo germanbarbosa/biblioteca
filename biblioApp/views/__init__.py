@@ -12,3 +12,22 @@ from .libroCreateView import LibroDetailView
 from .libroCreateView import LibroDeleteView
 from .libroCreateView import LibroUpdateView
 from .libroCreateView import LibroRetriveUpdateView
+from .categoriaCreateView import CategoriaListApiView
+from .categoriaCreateView import CategoriaCreateView
+from .categoriaCreateView import CategoriaDetailView
+from .categoriaCreateView import CategoriaDeleteView
+from .categoriaCreateView import CategoriaUpdateView
+from .categoriaCreateView import CategoriaRetriveUpdateView
+from .prestamoCreateView import PrestamoListApiView
+from .prestamoCreateView import PrestamoCreateView
+from .prestamoCreateView import PrestamoDetailView
+from .prestamoCreateView import PrestamoDeleteView
+from .prestamoCreateView import PrestamoUpdateView
+from .prestamoCreateView import PrestamoRetriveUpdateView
+from .lectorCreateView import LectorListApiView
+from .lectorCreateView import LectorCreateView
+from .lectorCreateView import LectorDetailView
+from .lectorCreateView import LectorDeleteView
+from .lectorCreateView import LectorUpdateView
+from .lectorCreateView import LectorRetriveUpdateView
+

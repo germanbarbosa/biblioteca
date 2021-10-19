@@ -5,4 +5,4 @@ from rest_framework import fields, serializers
 class LectorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Lector
-        fields = ['nombre','apellidos','nacionalidad','edad']
+        fields = ['user','nombre','apellidos','nacionalidad','edad']

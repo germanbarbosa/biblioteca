@@ -38,4 +38,26 @@ urlpatterns = [
     path('api/libro/delete/<pk>', views.LibroDeleteView.as_view(),),
     path('api/libro/update/<pk>', views.LibroUpdateView.as_view()),
     path('api/libro/modificar/<pk>', views.LibroRetriveUpdateView.as_view(),),
+    
+    path('api/categoria/lista', views.CategoriaListApiView.as_view()),
+    path('api/categoria/create', views.CategoriaCreateView.as_view()),
+    path('api/categoria/detail/<pk>', views.CategoriaDetailView.as_view()),
+    path('api/categoria/delete/<pk>', views.CategoriaDeleteView.as_view(),),
+    path('api/categoria/update/<pk>', views.CategoriaUpdateView.as_view()),
+    path('api/categoria/modificar/<pk>', views.CategoriaRetriveUpdateView.as_view(),),
+    
+    path('api/prestamo/lista', views.PrestamoListApiView.as_view()),
+    path('api/prestamo/create', views.PrestamoCreateView.as_view()),
+    path('api/prestamo/detail/<pk>', views.PrestamoDetailView.as_view()),
+    path('api/prestamo/delete/<pk>', views.PrestamoDeleteView.as_view(),),
+    path('api/prestamo/update/<pk>', views.PrestamoUpdateView.as_view()),
+    path('api/prestamo/modificar/<pk>', views.PrestamoRetriveUpdateView.as_view(),),
+    
+    path('api/lector/lista', views.LectorListApiView.as_view()),
+    path('api/lector/create', views.LectorCreateView.as_view()),
+    path('api/lector/detail/<pk>', views.LectorDetailView.as_view()),
+    path('api/lector/delete/<pk>', views.LectorDeleteView.as_view(),),
+    path('api/lector/update/<pk>', views.LectorUpdateView.as_view()),
+    path('api/lector/modificar/<pk>', views.LectorRetriveUpdateView.as_view(),),
+    
 ]

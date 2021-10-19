@@ -101,10 +101,10 @@ WSGI_APPLICATION = 'libros.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd5psarke66s542',
-        'USER': 'uldtwftmtkiaky',
-        'PASSWORD': '160fc793484abff67c749e5e9b4713857fa192d561fb7926f6dba201c87af75f',
-        'HOST': 'ec2-44-198-204-136.compute-1.amazonaws.com',
+        'NAME': 'deeb7hk2e7mtim',
+        'USER': 'lcrymuvelaiqku',
+        'PASSWORD': '7325f12c9b412026cb36c7504b4e8ed5f84dc32b879a1be167d28f064eb70963',
+        'HOST': 'ec2-52-201-72-91.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
